@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wraper">
+        <img src="logo.png" class="logo">
+        <div>    
+            <h1 class="Title" id="text">
+                Агенство недвижемости "Кабор"
+            </h1>
+        </div>
+        <div>
+            <p class="optinal-text">воплощение твоей мечты.</p>
+            <div>
+                <button class="Buy" onclick="Buy()">Купить квартиру</button>
+            </div>
+        </div>
+
+        <div class="fixed--Where--Buy" id="Buy">
+            <h2>Выберите город, в котором желаете приобрести недвижемость</h2>
+            <div class="Cyties">
+                <div class="Cyty">
+                    <a href="../City/Kiev/index.html">Киев</a>
+                </div>
+                <div class="Cyty">
+                    <a href="../City/Odessa/index.html">Одесса</a>
+                </div>
+                <div class="Cyty">
+                    <a href="../City/Kharkov/index.html">Харьков</a>
+                </div>
+                <div class="Cyty">
+                    <a href="../City/Lvov/index.html">Львов</a>
+                </div>
+                <div class="Cyty">
+                    <a href="../City/Dnepr/index.html">Днепр</a>
+                </div>
+                <div class="Cyty">
+                    <a href="https://vlk-casino-online.com/">Запорожье</a>
+                </div>
+            </div>
+            <button class="Close" onclick="Buy()">Закрыть</button>
+        </div>
+    </div>
+
+
+    <script>
+        function Buy() {
+          var x = document.getElementById('Buy');
+          var y = document.getElementById('text');
+          if (x.style.display === 'none') {
+            x.style.display = 'block';
+            y.style.display = 'none';
+          } else {
+            x.style.display = 'none';
+            y.style.display = 'block'
+          }
+        }
+    </script>
+</body>
+</html>

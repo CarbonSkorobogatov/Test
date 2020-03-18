@@ -1,0 +1,92 @@
+body{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+}
+
+.Wrapper{
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav{
+    position: relative;
+    top: 2%;
+    display: flex;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.item--nav:not(:last-child){
+    margin-right: 50px;
+}
+
+.item--nav{
+    font-size: 20px;
+}
+
+.header{
+    position: relative;
+    background-image: url("../image/Odessa-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vmin;
+    text-align: center;
+}
+
+.Welcome{
+    position: relative;
+    top: calc(50% - 45px);
+    color: #000000;
+    font-size: 70px;
+    background-color: #ffffff;
+}
+
+.Houses{
+    display: flex;
+    position: relative;
+    top: 50%;
+    justify-content: center;
+}
+
+.Home{
+    background-color: #25587E;
+    color: white;
+    width: 400px;
+}
+
+.Home:not(:last-child){
+    margin-right: 50px;
+}
+
+.Home h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.cost{
+    margin-bottom: 10px;
+}
+
+.descrition{
+    margin-bottom: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.a{
+    background-color: green;
+    width: 100px;
+    height: 15px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
